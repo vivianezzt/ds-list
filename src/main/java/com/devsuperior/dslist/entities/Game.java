@@ -30,7 +30,7 @@ public class Game {
 	private String shortDescription;
 	
 	@Column(columnDefinition = "TEXT")
-	private Long longDescription;
+	private String longDescription;
 	
 // Construtores	
 	
@@ -38,7 +38,7 @@ public class Game {
 	}
 
 	public Game(Long id, String title, Integer year, String genre, String platform,Double score, String imgUrl,
-			String shortDescription, Long longDescription, String platforms) {
+			String shortDescription, String longDescription, String platforms) {
 		//super();
 		this.id = id;
 		this.title = title;
@@ -118,11 +118,11 @@ public class Game {
 		this.shortDescription = shortDescription;
 	}
 
-	public Long getLongDescription() {
+	public String getLongDescription() {
 		return longDescription;
 	}
 
-	public void setLongDescription(Long longDescription) {
+	public void setLongDescription(String longDescription) {
 		this.longDescription = longDescription;
 	}
 
