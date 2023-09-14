@@ -120,7 +120,7 @@ Homologação local
 
 • Configuração de CORS
 
-## Créditos &copy; <a href="https://devsuperior.com.br/bootcamp">Dev superior</a>
+### Créditos &copy; <a href="https://devsuperior.com.br/bootcamp">Dev superior</a>
 ### Prof.<a href="https://www.youtube.com/@DevSuperior"> Nélio Alves</a> na semana Intensivão Java Spring - DevSuperior - Nélio Alves (2023) | de 10/07/23 à 14/07/23
 
 
